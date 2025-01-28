@@ -1,0 +1,149 @@
+*{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;  
+    margin: 0px;  
+}
+#cabeçalho{
+    background-color: #303030;
+    width: 1440px;
+    height: 475px;
+    color: #FFFFFF;
+}
+#titulocabeçalho{
+    width: 1024px;
+    height: 72px;
+    padding-top: 206px;
+    margin-left: 62px;    
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    text-decoration-skip-ink: none;
+}
+
+#textocabeçalho{
+    margin-left: 62px;  
+    width: 1024px;
+    height: 28px;
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+#menuinformacional{
+    width: 1440px;
+    height: 229px;
+    padding-top: 42px;
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow:column;
+    columns: auto;
+    align-items: center;
+}
+
+.textoinformacional{
+    font-family: "inter", serif;
+    font-weight: 600px;
+    font-size: 40px;
+    line-height: 28px;
+    padding-top: 54px;
+    padding-left: 120px;
+    width: 292px;
+    height: 67px;
+}
+
+
+span{
+    font-family: "inter", serif;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+#seçaoimagem{
+    background-color: #FFFFFF;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-left: 25px;
+}
+
+#tituloimg{
+    padding-top: 500px;
+    margin-bottom: 300px;
+    font-weight: 500, bold;
+    font-size: 40px;
+    line-height: 20px;
+    margin-left: 25px; 
+    width: 735px;
+    height: 161px;   
+}
+
+#textoimg{
+    margin-top: 100px;
+    font-weight: 150;
+    font-size: 24px;
+    line-height: 30px;
+    width: 735px;
+    height: 161px;
+}
+
+#quarto{
+    width: 510px;
+    height: 605px;
+    margin-top: 300px;
+    border-radius: 30px;
+    padding-right: 600px;
+}
+
+#seçaoformulario{
+    width: 1440px;
+    height: 638px;
+    top: 1478px;
+    background-color: #303030;
+}
+
+#tituloformulario{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 100px;
+}
+
+.campo{
+    width: 508px;
+    height: 72px;
+    margin-top: 50px;
+    margin-left: 466px;
+    border-radius: 10px;
+    padding-left: 30px;
+    font-family: "raleway", serif;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+button{
+    width: 286px;
+    height: 74px;
+    margin-top: 50px;
+    margin-left: 577px;
+    border-radius: 10px;
+    background-color: #C07212;
+    color: #FFFFFF;
+    font-family: "raleway", serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+button:hover{
+        background-color: #ce7a13;
+        color: white;
+        transform: translateY(-7px);
+        box-shadow: 0px 15px 20px #e0810dcb;
+        cursor: pointer;
+        transition-duration: 0.5s;
+}
